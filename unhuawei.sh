@@ -6,38 +6,49 @@
 # This scripts remove all honor bloatwares
 
 adb shell pm uninstall --user 0 com.honor.global
-
-adb shell pm uninstall --user 0 com.huawei.KoBackup
+# Tunner Radio
 adb shell pm uninstall --user 0 com.huawei.android.FMRadio
-adb shell pm uninstall --user 0 com.huawei.android.internal.app
+# Theme Manager
 adb shell pm uninstall --user 0 com.huawei.android.thememanager
+# Tips and Help
 adb shell pm uninstall --user 0 com.huawei.android.tips
+# Weather
 adb shell pm uninstall --user 0 com.huawei.android.totemweather
 adb shell pm uninstall --user 0 com.huawei.android.totemweatherapp
 adb shell pm uninstall --user 0 com.huawei.android.totemweatherwidget
+# Share WIFI DIRECT
 adb shell pm uninstall --user 0 com.huawei.android.wfdft
+# Huawei Store
 adb shell pm uninstall --user 0 com.huawei.appmarket
-adb shell pm uninstall --user 0 com.huawei.autoinstallapkfrommcc
 adb shell pm uninstall --user 0 com.huawei.camera
+# File Manager
 adb shell pm uninstall --user 0 com.huawei.hidisk
+# Video Player
 adb shell pm uninstall --user 0 com.huawei.himovie
+# Hi Care
 adb shell pm uninstall --user 0 com.huawei.phoneservice
-
+# MMI Test
 adb shell pm uninstall --user 0 com.ontim.cit
 adb shell pm uninstall --user 0 com.ontim.deviceinfo
+# Assassin's Creed Game
 adb shell pm uninstall --user 0 com.playwing.acu.huawei
+# Keyboard
 adb shell pm uninstall --user 0 com.swiftkey.swiftkeyconfigurator
 adb shell pm uninstall --user 0 com.touchtype.swiftkey
+# Huawei Mobile Services
+adb shell pm uninstall --user 0 com.huawei.hwid
 
 #--------------------------
 # UNDER YOUR RESPONSABILITY
 # COULD BRICK THE PHONE
 #--------------------------
+#adb shell pm uninstall --user 0 com.huawei.autoinstallapkfrommcc
+#adb shell pm uninstall --user 0 com.huawei.android.internal.app
+#adb shell pm uninstall --user 0 com.huawei.KoBackup
 #adb shell pm uninstall --user 0 com.huawei.android.hwouc
 #adb shell pm uninstall --user 0 com.huawei.android.launcher
 #adb shell pm uninstall --user 0 com.huawei.hiview
 #adb shell pm uninstall --user 0 com.huawei.hwdetectrepair
-#adb shell pm uninstall --user 0 com.huawei.hwid
 #adb shell pm uninstall --user 0 com.huawei.hwstartupguide
 #adb shell pm uninstall --user 0 com.huawei.iaware
 #adb shell pm uninstall --user 0 com.huawei.motionservice
