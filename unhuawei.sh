@@ -37,6 +37,8 @@ adb shell pm uninstall --user 0 com.swiftkey.swiftkeyconfigurator
 adb shell pm uninstall --user 0 com.touchtype.swiftkey
 # Huawei Mobile Services
 adb shell pm uninstall --user 0 com.huawei.hwid
+# Backup
+adb shell pm uninstall --user 0 com.huawei.KoBackup
 
 #--------------------------
 # UNDER YOUR RESPONSABILITY
@@ -44,7 +46,6 @@ adb shell pm uninstall --user 0 com.huawei.hwid
 #--------------------------
 #adb shell pm uninstall --user 0 com.huawei.autoinstallapkfrommcc
 #adb shell pm uninstall --user 0 com.huawei.android.internal.app
-#adb shell pm uninstall --user 0 com.huawei.KoBackup
 #adb shell pm uninstall --user 0 com.huawei.android.hwouc
 #adb shell pm uninstall --user 0 com.huawei.android.launcher
 #adb shell pm uninstall --user 0 com.huawei.hiview

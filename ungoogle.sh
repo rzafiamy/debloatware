@@ -32,6 +32,7 @@ adb shell pm uninstall --user 0 com.google.android.tts
 adb shell pm uninstall --user 0 com.google.android.videos
 adb shell pm uninstall --user 0 com.google.android.youtube
 adb shell pm uninstall --user 0 com.google.ar.lens
+adb shell pm uninstall --user 0 com.android.exchange
 
 # Services Google Play
 adb shell pm disable-user --user 0 com.google.android.gms
@@ -98,7 +99,6 @@ adb shell pm uninstall --user 0 com.android.wallpaperpicker
 #adb shell pm uninstall --user 0 com.android.defcontainer
 #adb shell pm uninstall --user 0 com.android.dreams.basic
 #adb shell pm uninstall --user 0 com.android.dreams.phototable
-#adb shell pm uninstall --user 0 com.android.exchange
 #adb shell pm uninstall --user 0 com.android.externalstorage
 #adb shell pm uninstall --user 0 com.android.frameworkhwext.honor
 #adb shell pm uninstall --user 0 com.android.htmlviewer
